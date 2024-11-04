@@ -1,11 +1,18 @@
+
 Windows:
-run.bat
+  
+    run.bat
+  
 MAC:
-bash run.sh
+  
+    bash run.sh
+  
 Requirements:
 
-Docker Desktop installed and running
-API Keys (can be entered in the UI):
+    Docker Desktop installed and running
+  
+    API Keys (can be entered in the UI):
 
-OpenAI API Key
-SerpAPI Key
+      OpenAI API Key
+  
+      SerpAPI Key
