@@ -1,0 +1,13 @@
+services:
+  chatbot:
+    platform: linux/amd64
+    build: 
+      context: .
+      dockerfile: Dockerfile
+    ports:
+      - "8501:8501"
+    volumes:
+      - ./data:/app/data:delegated
+    environment:
+      - PYTHONUNBUFFERED=1
+    user: "${UID}:${GID}"
